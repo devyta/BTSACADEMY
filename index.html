@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BTS Academy — Be The Star</title>
+  <meta name="description" content="BTS Academy — Bimbingan belajar modern untuk SD, SMP, SMA. Hybrid online & offline, OSN, UTBK, privat, dan lebih banyak lagi." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="nav">
+    <div class="nav__inner container">
+      <a class="nav__brand" href="#home">
+        <img src="assets/logo.png" alt="BTS Academy Logo" />
+        <span>BTS Academy</span>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav__toggle" />
+      <label for="nav-toggle" class="nav__burger" aria-label="toggle menu">
+        <span></span><span></span><span></span>
+      </label>
+      <nav class="nav__menu">
+        <a href="#tentang">Tentang</a>
+        <a href="#program">Program</a>
+        <a href="#unggulan">Keunggulan</a>
+        <a href="#testimoni">Testimoni</a>
+        <a href="#galeri">Galeri</a>
+        <a href="#daftar" class="btn btn--gold">Daftar</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container hero__grid">
+      <div class="hero__text">
+        <h1 class="title-xl reveal">Be The Star of Your Future ✨</h1>
+        <p class="lead reveal delay-1">
+          BTS Academy (Be The Star Academy) hadir sebagai solusi cerdas bagi siswa SD hingga SMA yang
+          membutuhkan pendampingan belajar tambahan yang efektif, menyenangkan, dan berorientasi pada hasil nyata.
+        </p>
+        <div class="hero__cta reveal delay-2">
+          <a class="btn btn--gold btn--lg" id="cta-hero" target="_blank" rel="noopener">
+            Daftar Sekarang
+          </a>
+          <a class="btn btn--ghost" href="#program">Lihat Program</a>
+        </div>
+        <div class="badges reveal delay-3">
+          <span>Hybrid: Online & Offline</span>
+          <span>OSN • UTBK • Ujian Sekolah</span>
+          <span>Privat Semua Jenjang</span>
+        </div>
+      </div>
+      <div class="hero__image reveal">
+        <!-- royalty-free illustrative photo; you can replace with your own later -->
+        <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?q=80&w=1600&auto=format&fit=crop" alt="Siswa belajar bersama tutor" />
+      </div>
+    </div>
+    <div class="hero__glow"></div>
+  </section>
+
+  <!-- Tentang -->
+  <section id="tentang" class="section">
+    <div class="container grid-2">
+      <div class="stack reveal">
+        <h2 class="title">Tentang BTS Academy</h2>
+        <p>
+          Di era pendidikan yang semakin kompetitif, banyak siswa menghadapi tantangan untuk memahami pelajaran
+          secara mendalam hanya dari jam belajar di sekolah. Kami percaya bahwa setiap anak punya potensi besar
+          untuk bersinar! Melalui pendekatan belajar yang personal, program yang terstruktur, dan pengajar berpengalaman,
+          BTS Academy siap membantu siswa meningkatkan nilai, lulus ujian dengan percaya diri, serta bersinar dalam ajang
+          bergengsi seperti Olimpiade Sains Nasional (OSN).
+        </p>
+        <div class="cards">
+          <div class="card">
+            <h3>Visi</h3>
+            <p>Menjadi lembaga bimbingan belajar terdepan dalam mencetak generasi pelajar yang berprestasi, percaya diri, dan siap bersinar di tingkat nasional maupun global.</p>
+          </div>
+          <div class="card">
+            <h3>Misi</h3>
+            <ul class="list">
+              <li>Program adaptif berbasis kurikulum terbaru</li>
+              <li>Metode kreatif & menyenangkan</li>
+              <li>Persiapan Ujian Sekolah, UTBK, & OSN</li>
+              <li>Komunitas belajar positif & kolaboratif</li>
+              <li>Kelas daring & luring dengan pengajar berpengalaman</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="reveal delay-1">
+        <div class="stats">
+          <div><span class="num">100+</span><small>Siswa aktif</small></div>
+          <div><span class="num">15+</span><small>Pengajar</small></div>
+          <div><span class="num">20+</span><small>Tryout / th</small></div>
+          <div><span class="num">9.0</span><small>Rata kepuasan</small></div>
+        </div>
+        <div class="note">Angka dapat disesuaikan sesuai data terbaru.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Program Unggulan -->
+  <section id="program" class="section alt">
+    <div class="container">
+      <h2 class="title center reveal">Program Unggulan</h2>
+
+      <div class="programs reveal delay-1" id="program-list">
+        <article class="program">
+          <div class="program__icon">📘</div>
+          <h3>SD — Bimbel Harian & Persiapan Ujian</h3>
+          <p>Fokus pada Matematika, IPA, dan Bahasa Indonesia.</p>
+        </article>
+        <article class="program">
+          <div class="program__icon">🧪</div>
+          <h3>SMP — Bimbel Harian & OSN Dasar</h3>
+          <p>Materi pelajaran + kelas Olimpiade awal.</p>
+        </article>
+        <article class="program">
+          <div class="program__icon">🎓</div>
+          <h3>SMA — UTBK, Ujian Sekolah & OSN</h3>
+          <p>Pendalaman konsep, latihan soal, dan tryout rutin.</p>
+        </article>
+        <article class="program">
+          <div class="program__icon">⭐</div>
+          <h3>Privat Semua Jenjang</h3>
+          <p>Sesi fleksibel sesuai kebutuhan siswa.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Keunggulan -->
+  <section id="unggulan" class="section">
+    <div class="container">
+      <h2 class="title center reveal">Kenapa Pilih Kami?</h2>
+      <div class="perks grid-3 reveal delay-1">
+        <div class="perk">
+          <div class="perk__icon">👩‍🏫</div>
+          <h4>Pengajar Berpengalaman</h4>
+          <p>Ramah dan profesional.</p>
+        </div>
+        <div class="perk">
+          <div class="perk__icon">🔀</div>
+          <h4>Sistem Hybrid</h4>
+          <p>Online & offline sesuai kebutuhan.</p>
+        </div>
+        <div class="perk">
+          <div class="perk__icon">📚</div>
+          <h4>Modul Eksklusif</h4>
+          <p>Materi up-to-date.</p>
+        </div>
+        <div class="perk">
+          <div class="perk__icon">🏅</div>
+          <h4>OSN Terstruktur</h4>
+          <p>Pembinaan Olimpiade.</p>
+        </div>
+        <div class="perk">
+          <div class="perk__icon">📈</div>
+          <h4>Progress Report</h4>
+          <p>Laporan bulanan orang tua.</p>
+        </div>
+        <div class="perk">
+          <div class="perk__icon">💸</div>
+          <h4>Harga Terjangkau</h4>
+          <p>Kualitas profesional.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimoni Slider -->
+  <section id="testimoni" class="section alt">
+    <div class="container">
+      <h2 class="title center reveal">Apa Kata Mereka</h2>
+      <div class="slider reveal delay-1" data-autoplay="4000">
+        <div class="slides">
+          <figure class="slide is-active">
+            <blockquote>
+              "Nilai anak saya naik drastis dan lebih percaya diri menghadapi ujian. Terima kasih BTS Academy!"
+            </blockquote>
+            <figcaption>— Orang Tua Siswa SMP</figcaption>
+          </figure>
+          <figure class="slide">
+            <blockquote>
+              "Kelas OSN-nya seru dan menantang. Aku jadi lolos seleksi OSN tingkat kota."
+            </blockquote>
+            <figcaption>— Siswa SMA</figcaption>
+          </figure>
+          <figure class="slide">
+            <blockquote>
+              "Tutor sangat komunikatif, belajarnya fun tapi tetap fokus. Recommended!"
+            </blockquote>
+            <figcaption>— Siswa SD</figcaption>
+          </figure>
+        </div>
+        <div class="dots" aria-label="navigasi slider"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeri -->
+  <section id="galeri" class="section">
+    <div class="container">
+      <h2 class="title center reveal">Foto Kegiatan</h2>
+      <p class="center muted reveal delay-1">Ganti foto sesuai dokumentasi asli BTS Academy kapan saja.</p>
+      <div class="gallery reveal delay-2">
+        <a class="gallery__item" href="#" aria-label="Foto 1">
+          <img src="https://images.unsplash.com/photo-1606326608690-8e6f3b7ed7bc?q=80&w=1600&auto=format&fit=crop" alt="Kegiatan belajar 1" />
+        </a>
+        <a class="gallery__item" href="#" aria-label="Foto 2">
+          <img src="https://images.unsplash.com/photo-1584697964155-2acb54078530?q=80&w=1600&auto=format&fit=crop" alt="Kegiatan belajar 2" />
+        </a>
+        <a class="gallery__item" href="#" aria-label="Foto 3">
+          <img src="https://images.unsplash.com/photo-1610484826967-09c5720778fd?q=80&w=1600&auto=format&fit=crop" alt="Kegiatan belajar 3" />
+        </a>
+        <a class="gallery__item" href="#" aria-label="Foto 4">
+          <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1600&auto=format&fit=crop" alt="Kegiatan belajar 4" />
+        </a>
+        <a class="gallery__item" href="#" aria-label="Foto 5">
+          <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1600&auto=format&fit=crop" alt="Kegiatan belajar 5" />
+        </a>
+        <a class="gallery__item" href="#" aria-label="Foto 6">
+          <img src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?q=80&w=1600&auto=format&fit=crop" alt="Kegiatan belajar 6" />
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pendaftaran -->
+  <section id="daftar" class="section alt">
+    <div class="container grid-2">
+      <div class="stack reveal">
+        <h2 class="title">Daftar Online</h2>
+        <p>Isi form singkat di kanan, lalu otomatis terbuka WhatsApp BTS Academy dengan pesan terformat.</p>
+        <ul class="list">
+          <li>Nama Lengkap</li>
+          <li>Jenjang (SD/SMP/SMA/Privat)</li>
+          <li>Nomor HP aktif</li>
+        </ul>
+        <div class="contact">
+          <div>📍 Jl. Kamboja No. 23, Pancoran Mas, Kota Depok</div>
+          <div>🕘 Senin–Jumat (09.00–18.00)</div>
+          <div>☎️ WhatsApp: <a href="https://wa.me/6281293279819" target="_blank" rel="noopener">+62 812-9327-9819</a></div>
+          <div>📷 Instagram: <a href="https://instagram.com/btsacadmy" target="_blank" rel="noopener">@btsacadmy</a></div>
+        </div>
+      </div>
+
+      <form class="form reveal delay-1" id="form-daftar">
+        <label>Nama Lengkap
+          <input type="text" name="nama" placeholder="Nama Anda" required />
+        </label>
+        <label>Jenjang
+          <select name="jenjang" required>
+            <option value="" disabled selected>Pilih</option>
+            <option>SD</option>
+            <option>SMP</option>
+            <option>SMA</option>
+            <option>Privat</option>
+          </select>
+        </label>
+        <label>Nomor HP (WhatsApp)
+          <input type="tel" name="hp" placeholder="08xxxxxxxxxx" required />
+        </label>
+        <button type="submit" class="btn btn--gold btn--lg">Kirim via WhatsApp</button>
+        <p class="muted small">Dengan submit, Anda akan dialihkan ke WhatsApp untuk konfirmasi.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="assets/logo.png" alt="BTS Academy" />
+        <p>Belajar • Berkembang • Berprestasi</p>
+      </div>
+      <div class="footer__social">
+        <a aria-label="Instagram" target="_blank" rel="noopener" href="https://instagram.com/btsacadmy">Instagram</a>
+        <a aria-label="TikTok" target="_blank" rel="noopener" href="https://www.tiktok.com/@btsacadmy">TikTok</a>
+        <a aria-label="Facebook" target="_blank" rel="noopener" href="https://www.facebook.com">Facebook</a>
+        <a aria-label="YouTube" target="_blank" rel="noopener" href="https://www.youtube.com">YouTube</a>
+      </div>
+      <div class="footer__copy">© <span id="year"></span> BTS Academy. All rights reserved.</div>
+    </div>
+  </footer>
+</body>
+</html>
