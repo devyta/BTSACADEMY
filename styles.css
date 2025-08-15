@@ -109,7 +109,7 @@ a{color:var(--gold);text-decoration:none}
 .form input:focus,.form select:focus{border-color:var(--gold);box-shadow:0 0 0 4px var(--ring)}
 
 /* Footer */
-.footer{padding:32px 0;border-top:1px solid #1a1a1a;background:#FFD700} /*black: #0b0b0c*/
+.footer{padding:32px 0;border-top:1px solid #1a1a1a;background:#0b0b0c} /*yellow light:  #FFD700*/
 .footer__grid{display:grid;gap:16px;grid-template-columns:1.2fr .8fr}
 .footer__brand{display:flex;align-items:center;gap:12px}
 .footer__brand img{width:44px}
